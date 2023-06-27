@@ -1,4 +1,5 @@
 # Configuration 3dsmax
+inport time
 import bpy
 
 wm = bpy.context.window_manager
