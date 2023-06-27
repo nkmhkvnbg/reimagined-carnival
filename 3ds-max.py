@@ -18,6 +18,7 @@ kmi.properties.name = 'INFO_MT_file_open_recent'
 
 kmi = km.keymap_items.new('wm.open_mainfile', 'O', 'PRESS', ctrl=True)
 kmi = km.keymap_items.new('wm.open_mainfile', 'F1', 'PRESS')
+
 kmi = km.keymap_items.new('wm.link', 'O', 'PRESS', ctrl=True, alt=True)
 kmi = km.keymap_items.new('wm.append', 'F1', 'PRESS', shift=True)
 kmi.properties.link = False
